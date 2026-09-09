@@ -1,0 +1,861 @@
+DIGEST f4005926e81a5c251b9c067a214ad7f4
+FPLF.Types
+R686:690 Stdlib.Arith.Arith <> <> lib
+R717:720 PLF.Maps <> <> lib
+R747:755 PLF.Smallstep <> <> lib
+R808:812 PLF.Types <> multi ind
+mod 1774:1775 <> TM
+ind 1789:1790 TM tm
+constr 1806:1808 TM tru
+constr 1819:1821 TM fls
+constr 1832:1834 TM ite
+constr 1863:1865 TM zro
+constr 1876:1878 TM scc
+constr 1895:1897 TM prd
+constr 1914:1918 TM iszro
+R1812:1813 PLF.Types <> tm:1 ind
+R1825:1826 PLF.Types <> tm:1 ind
+R1840:1843 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1838:1839 PLF.Types <> tm:1 ind
+R1846:1849 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1844:1845 PLF.Types <> tm:1 ind
+R1852:1855 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1850:1851 PLF.Types <> tm:1 ind
+R1856:1857 PLF.Types <> tm:1 ind
+R1869:1870 PLF.Types <> tm:1 ind
+R1884:1887 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1882:1883 PLF.Types <> tm:1 ind
+R1888:1889 PLF.Types <> tm:1 ind
+R1903:1906 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1901:1902 PLF.Types <> tm:1 ind
+R1907:1908 PLF.Types <> tm:1 ind
+R1924:1927 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1922:1923 PLF.Types <> tm:1 ind
+R1928:1929 PLF.Types <> tm:1 ind
+scheme 1789:1790 TM tm_rect
+scheme 1789:1790 TM tm_ind
+scheme 1789:1790 TM tm_rec
+scheme 1789:1790 TM tm_sind
+R2004:2007 Corelib.Init.Datatypes <> true constr
+not 1991:1991 TM ::tm_scope:'true'
+R2055:2057 PLF.Types TM tru constr
+not 2042:2042 TM :tm:tm_scope:'true'
+R2120:2124 Corelib.Init.Datatypes <> false constr
+not 2106:2106 TM ::tm_scope:'false'
+R2173:2175 PLF.Types TM fls constr
+not 2159:2159 TM :tm:tm_scope:'false'
+not 2224:2224 TM ::tm_scope:'<{'_x_'}>'
+not 2285:2285 TM :tm:tm_scope:'('_x_')'
+not 2348:2348 TM :tm:tm_scope:x
+R2434:2436 PLF.Types TM zro constr
+not 2424:2424 TM :tm:tm_scope:'0'
+not 2485:2485 TM ::tm_scope:'0'
+R2545:2547 PLF.Types TM scc constr
+not 2530:2530 TM :tm:tm_scope:'succ'_x
+R2639:2641 PLF.Types TM prd constr
+not 2624:2624 TM :tm:tm_scope:'pred'_x
+R2735:2739 PLF.Types TM iszro constr
+not 2718:2718 TM :tm:tm_scope:'iszero'_x
+R2847:2849 PLF.Types TM ite constr
+not 2816:2816 TM :tm:tm_scope:'if'_x_'then'_x_'else'_x
+ind 3103:3108 TM bvalue
+constr 3130:3136 TM bv_true
+constr 3162:3169 TM bv_false
+R3114:3117 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3112:3113 PLF.Types TM tm ind
+R3140:3145 PLF.Types <> bvalue:3 ind
+R3147:3149 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3154:3156 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3150:3153 PLF.Types TM :tm:tm_scope:'true' not
+R3173:3178 PLF.Types <> bvalue:3 ind
+R3180:3182 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3188:3190 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3183:3187 PLF.Types TM :tm:tm_scope:'false' not
+scheme 3103:3108 TM bvalue_ind
+scheme 3103:3108 TM bvalue_sind
+ind 3204:3209 TM nvalue
+constr 3231:3234 TM nv_0
+constr 3257:3263 TM nv_succ
+R3215:3218 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3213:3214 PLF.Types TM tm ind
+R3238:3243 PLF.Types <> nvalue:5 ind
+R3245:3247 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3249:3251 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3248:3248 PLF.Types TM :tm:tm_scope:'0' not
+binder 3274:3274 <> t:7
+R3285:3288 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3277:3282 PLF.Types <> nvalue:5 ind
+R3284:3284 PLF.Types <> t:7 var
+R3289:3294 PLF.Types <> nvalue:5 ind
+R3296:3298 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3305:3307 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R3299:3303 PLF.Types TM :tm:tm_scope:'succ'_x not
+R3304:3304 PLF.Types <> t:7 var
+scheme 3204:3209 TM nvalue_ind
+scheme 3204:3209 TM nvalue_sind
+def 3322:3326 TM value
+R3333:3334 PLF.Types TM tm ind
+binder 3329:3329 <> t:8
+R3348:3351 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3340:3345 PLF.Types TM bvalue ind
+R3347:3347 PLF.Types <> t:8 var
+R3352:3357 PLF.Types TM nvalue ind
+R3359:3359 PLF.Types <> t:8 var
+R3381:3386 PLF.Types <> bvalue ind
+R3388:3393 PLF.Types <> nvalue ind
+R3415:3419 PLF.Types TM value def
+ind 5227:5230 TM step
+constr 5258:5266 TM ST_IfTrue
+constr 5331:5340 TM ST_IfFalse
+constr 5406:5410 TM ST_If
+constr 5520:5526 TM ST_Succ
+constr 5608:5615 TM ST_Pred0
+constr 5654:5664 TM ST_PredSucc
+constr 5732:5738 TM ST_Pred
+constr 5820:5829 TM ST_IsZero0
+constr 5873:5885 TM ST_IsZeroSucc
+constr 5966:5974 TM ST_IsZero
+R5236:5239 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5234:5235 PLF.Types TM tm ind
+R5242:5245 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5240:5241 PLF.Types TM tm ind
+R6080:6083 PLF.Types <> step:10 ind
+binder 5277:5278 <> t1:11
+binder 5280:5281 <> t2:12
+R5319:5323 PLF.Types TM :::x_'-->'_x not
+R5290:5292 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5316:5318 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5293:5295 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5300:5305 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5308:5313 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5296:5299 PLF.Types TM :tm:tm_scope:'true' not
+R5306:5307 PLF.Types <> t1:11 var
+R5314:5315 PLF.Types <> t2:12 var
+R5324:5325 PLF.Types <> t1:11 var
+binder 5351:5352 <> t1:13
+binder 5354:5355 <> t2:14
+R5394:5398 PLF.Types TM :::x_'-->'_x not
+R5364:5366 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5391:5393 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5367:5369 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5375:5380 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5383:5388 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5370:5374 PLF.Types TM :tm:tm_scope:'false' not
+R5381:5382 PLF.Types <> t1:13 var
+R5389:5390 PLF.Types <> t2:14 var
+R5399:5400 PLF.Types <> t2:14 var
+binder 5421:5421 <> c:15
+binder 5423:5424 <> c':16
+binder 5426:5427 <> t2:17
+binder 5429:5430 <> t3:18
+R5447:5456 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5440:5444 PLF.Types TM :::x_'-->'_x not
+R5439:5439 PLF.Types <> c:15 var
+R5445:5446 PLF.Types <> c':16 var
+R5483:5487 PLF.Types TM :::x_'-->'_x not
+R5457:5459 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5480:5482 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5460:5462 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5464:5469 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5472:5477 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5463:5463 PLF.Types <> c:15 var
+R5470:5471 PLF.Types <> t2:17 var
+R5478:5479 PLF.Types <> t3:18 var
+R5488:5490 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5512:5514 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5491:5493 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5496:5501 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5504:5509 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R5494:5495 PLF.Types <> c':16 var
+R5502:5503 PLF.Types <> t2:17 var
+R5510:5511 PLF.Types <> t3:18 var
+binder 5537:5538 <> t1:19
+binder 5540:5542 <> t1':20
+R5561:5570 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5553:5557 PLF.Types TM :::x_'-->'_x not
+R5551:5552 PLF.Types <> t1:19 var
+R5558:5560 PLF.Types <> t1':20 var
+R5584:5588 PLF.Types TM :::x_'-->'_x not
+R5571:5573 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5581:5583 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5574:5578 PLF.Types TM :tm:tm_scope:'succ'_x not
+R5579:5580 PLF.Types <> t1:19 var
+R5589:5591 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5600:5602 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5592:5596 PLF.Types TM :tm:tm_scope:'succ'_x not
+R5597:5599 PLF.Types <> t1':20 var
+R5637:5641 PLF.Types TM :::x_'-->'_x not
+R5625:5627 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5634:5636 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5628:5632 PLF.Types TM :tm:tm_scope:'pred'_x not
+R5633:5633 PLF.Types TM :tm:tm_scope:'0' not
+R5642:5644 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5646:5648 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5645:5645 PLF.Types TM :tm:tm_scope:'0' not
+binder 5675:5675 <> v:21
+R5692:5701 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5684:5689 PLF.Types TM nvalue ind
+R5691:5691 PLF.Types <> v:21 var
+R5721:5725 PLF.Types TM :::x_'-->'_x not
+R5702:5704 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5718:5720 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5705:5709 PLF.Types TM :tm:tm_scope:'pred'_x not
+R5710:5710 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R5717:5717 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R5711:5715 PLF.Types TM :tm:tm_scope:'succ'_x not
+R5716:5716 PLF.Types <> v:21 var
+R5726:5726 PLF.Types <> v:21 var
+binder 5749:5750 <> t1:22
+binder 5752:5754 <> t1':23
+R5773:5782 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5765:5769 PLF.Types TM :::x_'-->'_x not
+R5763:5764 PLF.Types <> t1:22 var
+R5770:5772 PLF.Types <> t1':23 var
+R5796:5800 PLF.Types TM :::x_'-->'_x not
+R5783:5785 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5793:5795 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5786:5790 PLF.Types TM :tm:tm_scope:'pred'_x not
+R5791:5792 PLF.Types <> t1:22 var
+R5801:5803 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5812:5814 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5804:5808 PLF.Types TM :tm:tm_scope:'pred'_x not
+R5809:5811 PLF.Types <> t1':23 var
+R5853:5857 PLF.Types TM :::x_'-->'_x not
+R5839:5841 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5850:5852 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5842:5848 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R5849:5849 PLF.Types TM :tm:tm_scope:'0' not
+R5858:5860 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5865:5867 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5861:5864 PLF.Types TM :tm:tm_scope:'true' not
+binder 5896:5896 <> v:24
+R5914:5923 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5906:5911 PLF.Types TM nvalue ind
+R5913:5913 PLF.Types <> v:24 var
+R5945:5949 PLF.Types TM :::x_'-->'_x not
+R5924:5926 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5942:5944 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5927:5933 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R5934:5934 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R5941:5941 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R5935:5939 PLF.Types TM :tm:tm_scope:'succ'_x not
+R5940:5940 PLF.Types <> v:24 var
+R5950:5952 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5958:5960 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R5953:5957 PLF.Types TM :tm:tm_scope:'false' not
+binder 5985:5986 <> t1:25
+binder 5988:5990 <> t1':26
+R6009:6018 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6001:6005 PLF.Types TM :::x_'-->'_x not
+R5999:6000 PLF.Types <> t1:25 var
+R6006:6008 PLF.Types <> t1':26 var
+R6034:6038 PLF.Types TM :::x_'-->'_x not
+R6019:6021 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R6031:6033 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R6022:6028 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R6029:6030 PLF.Types <> t1:25 var
+R6039:6041 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R6052:6054 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R6042:6048 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R6049:6051 PLF.Types <> t1':26 var
+scheme 5227:5230 TM step_ind
+scheme 5227:5230 TM step_sind
+R6080:6083 PLF.Types TM step ind
+not 6063:6063 TM :::x_'-->'_x
+R6111:6114 PLF.Types <> step ind
+abbrev 7191:7206 TM step_normal_form
+R7212:7222 PLF.Smallstep <> normal_form def
+R7224:7227 PLF.Types TM step ind
+def 7243:7247 TM stuck
+R7254:7255 PLF.Types TM tm ind
+binder 7250:7250 <> t:27
+R7288:7291 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R7270:7285 PLF.Types TM step_normal_form abbrev
+R7287:7287 PLF.Types <> t:27 var
+R7292:7293 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7294:7298 PLF.Types TM value def
+R7300:7300 PLF.Types <> t:27 var
+R7316:7320 PLF.Types TM stuck def
+def 7400:7417 TM some_term_is_stuck
+R7423:7429 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7431:7432 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7430:7430 <> t:28
+R7433:7437 PLF.Types TM stuck def
+R7439:7439 PLF.Types <> t:28 var
+R7458:7460 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R7470:7472 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R7461:7465 PLF.Types TM :tm:tm_scope:'succ'_x not
+R7466:7469 PLF.Types TM :tm:tm_scope:'true' not
+R7458:7460 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R7470:7472 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R7461:7465 PLF.Types TM :tm:tm_scope:'succ'_x not
+R7466:7469 PLF.Types TM :tm:tm_scope:'true' not
+R7495:7510 PLF.Smallstep <> normal_form def
+R7619:7623 PLF.Types TM value def
+prf 8081:8091 TM value_is_nf
+binder 8102:8102 <> t:29
+R8114:8117 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8107:8111 PLF.Types TM value def
+R8113:8113 PLF.Types <> t:29 var
+R8118:8133 PLF.Types TM step_normal_form abbrev
+R8135:8135 PLF.Types <> t:29 var
+R8169:8184 PLF.Smallstep <> normal_form def
+R8196:8206 PLF.Smallstep <> normal_form def
+R8231:8235 PLF.Types TM value def
+prf 9144:9161 TM step_deterministic
+R9166:9178 PLF.Smallstep <> deterministic def
+R9180:9183 PLF.Types TM step ind
+R9213:9225 PLF.Smallstep <> deterministic def
+R9501:9505 PLF.Types TM value def
+R9507:9509 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9516:9518 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9510:9514 PLF.Types TM :tm:tm_scope:'succ'_x not
+R9501:9505 PLF.Types TM value def
+R9507:9509 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9516:9518 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9510:9514 PLF.Types TM :tm:tm_scope:'succ'_x not
+R9575:9585 PLF.Types TM value_is_nf thm
+R9587:9589 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9596:9598 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9590:9594 PLF.Types TM :tm:tm_scope:'succ'_x not
+R9575:9585 PLF.Types TM value_is_nf thm
+R9587:9589 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9596:9598 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R9590:9594 PLF.Types TM :tm:tm_scope:'succ'_x not
+ind 10112:10113 TM ty
+constr 10129:10132 TM Bool
+constr 10143:10145 TM Nat
+R10136:10137 PLF.Types <> ty:30 ind
+R10149:10150 PLF.Types <> ty:30 ind
+scheme 10112:10113 TM ty_rect
+scheme 10112:10113 TM ty_ind
+scheme 10112:10113 TM ty_rec
+scheme 10112:10113 TM ty_sind
+R11588:11590 PLF.Types TM Nat constr
+not 11577:11577 TM :ty::'Nat'
+R11629:11632 PLF.Types TM Bool constr
+not 11617:11617 TM :ty::'Bool'
+not 11659:11659 TM :ty::x
+ind 11800:11807 TM has_type
+constr 11835:11840 TM T_True
+constr 11879:11885 TM T_False
+constr 11925:11928 TM T_If
+constr 12090:12092 TM T_0
+constr 12127:12132 TM T_Succ
+constr 12215:12220 TM T_Pred
+constr 12303:12310 TM T_Iszero
+R11813:11816 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11811:11812 PLF.Types TM tm ind
+R11819:11822 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11817:11818 PLF.Types TM ty ind
+R12427:12434 PLF.Types <> has_type:33 ind
+R11851:11857 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11862:11866 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11871:11873 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11858:11861 PLF.Types TM :tm:tm_scope:'true' not
+R11867:11870 PLF.Types TM :ty::'Bool' not
+R11896:11902 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11908:11912 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11917:11919 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11903:11907 PLF.Types TM :tm:tm_scope:'false' not
+R11913:11916 PLF.Types TM :ty::'Bool' not
+binder 11939:11940 <> t1:34
+binder 11942:11943 <> t2:35
+binder 11945:11946 <> t3:36
+binder 11948:11948 <> T:37
+R11979:11989 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11958:11964 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11967:11971 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11976:11978 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11965:11966 PLF.Types <> t1:34 var
+R11972:11975 PLF.Types TM :ty::'Bool' not
+R12008:12018 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11990:11996 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11999:12003 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12005:12007 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R11997:11998 PLF.Types <> t2:35 var
+R12004:-1 PLF.Types TM :ty::x not
+R0:12004 PLF.Types TM :ty::x not
+R12004:12004 PLF.Types <> T:37 var
+R12037:12047 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12019:12025 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12028:12032 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12034:12036 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12026:12027 PLF.Types <> t3:36 var
+R12033:-1 PLF.Types TM :ty::x not
+R0:12033 PLF.Types TM :ty::x not
+R12033:12033 PLF.Types <> T:37 var
+R12048:12054 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12076:12080 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12082:12084 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12055:12057 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12060:12065 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12068:12073 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12058:12059 PLF.Types <> t1:34 var
+R12066:12067 PLF.Types <> t2:35 var
+R12074:12075 PLF.Types <> t3:36 var
+R12081:-1 PLF.Types TM :ty::x not
+R0:12081 PLF.Types TM :ty::x not
+R12081:12081 PLF.Types <> T:37 var
+R12103:12109 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12111:12115 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12119:12121 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12110:12110 PLF.Types TM :tm:tm_scope:'0' not
+R12116:12118 PLF.Types TM :ty::'Nat' not
+binder 12143:12144 <> t1:38
+R12174:12184 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12154:12160 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12163:12167 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12171:12173 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12161:12162 PLF.Types <> t1:38 var
+R12168:12170 PLF.Types TM :ty::'Nat' not
+R12185:12191 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12199:12203 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12207:12209 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12192:12196 PLF.Types TM :tm:tm_scope:'succ'_x not
+R12197:12198 PLF.Types <> t1:38 var
+R12204:12206 PLF.Types TM :ty::'Nat' not
+binder 12231:12232 <> t1:39
+R12262:12272 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12242:12248 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12251:12255 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12259:12261 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12249:12250 PLF.Types <> t1:39 var
+R12256:12258 PLF.Types TM :ty::'Nat' not
+R12273:12279 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12287:12291 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12295:12297 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12280:12284 PLF.Types TM :tm:tm_scope:'pred'_x not
+R12285:12286 PLF.Types <> t1:39 var
+R12292:12294 PLF.Types TM :ty::'Nat' not
+binder 12321:12322 <> t1:40
+R12352:12362 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12332:12338 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12341:12345 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12349:12351 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12339:12340 PLF.Types <> t1:40 var
+R12346:12348 PLF.Types TM :ty::'Nat' not
+R12363:12369 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12379:12383 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12388:12390 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12370:12376 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R12377:12378 PLF.Types <> t1:40 var
+R12384:12387 PLF.Types TM :ty::'Bool' not
+scheme 11800:11807 TM has_type_ind
+scheme 11800:11807 TM has_type_sind
+R12427:12434 PLF.Types TM has_type ind
+not 12399:12399 TM :::'<{'_'|--'_x_'\in'_x_'}>'
+R12461:12468 PLF.Types <> has_type ind
+def 12487:12496 TM has_type_1
+R12502:12508 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12538:12542 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12546:12548 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R12509:12511 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12517:12522 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12524:12529 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R12512:12516 PLF.Types TM :tm:tm_scope:'false' not
+R12523:12523 PLF.Types TM :tm:tm_scope:'0' not
+R12530:12530 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R12537:12537 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R12531:12535 PLF.Types TM :tm:tm_scope:'succ'_x not
+R12536:12536 PLF.Types TM :tm:tm_scope:'0' not
+R12543:12545 PLF.Types TM :ty::'Nat' not
+R12566:12569 PLF.Types TM T_If constr
+R12566:12569 PLF.Types TM T_If constr
+R12582:12588 PLF.Types TM T_False constr
+R12582:12588 PLF.Types TM T_False constr
+R12601:12603 PLF.Types TM T_0 constr
+R12601:12603 PLF.Types TM T_0 constr
+R12616:12621 PLF.Types TM T_Succ constr
+R12616:12621 PLF.Types TM T_Succ constr
+R12630:12632 PLF.Types TM T_0 constr
+R12630:12632 PLF.Types TM T_0 constr
+def 13064:13075 TM not_has_type
+R13081:13082 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13083:13089 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13115:13119 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13124:13126 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13090:13092 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13098:13103 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13105:13110 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13093:13097 PLF.Types TM :tm:tm_scope:'false' not
+R13104:13104 PLF.Types TM :tm:tm_scope:'0' not
+R13111:13114 PLF.Types TM :tm:tm_scope:'true' not
+R13120:13123 PLF.Types TM :ty::'Bool' not
+def 13188:13200 TM not_has_type'
+R13206:13207 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13208:13214 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13259:13263 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13268:13270 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13215:13217 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13233:13238 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13249:13254 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R13218:13224 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R13225:13225 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R13232:13232 PLF.Types TM :tm:tm_scope:'('_x_')' not
+R13226:13230 PLF.Types TM :tm:tm_scope:'succ'_x not
+R13231:13231 PLF.Types TM :tm:tm_scope:'0' not
+R13239:13243 PLF.Types TM :tm:tm_scope:'succ'_x not
+R13244:13248 PLF.Types TM :tm:tm_scope:'false' not
+R13255:13258 PLF.Types TM :tm:tm_scope:'true' not
+R13264:13267 PLF.Types TM :ty::'Bool' not
+def 13413:13441 TM succ_hastype_nat__hastype_nat
+binder 13452:13452 <> t:41
+R13482:13487 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13457:13464 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13471:13475 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13479:13481 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13465:13469 PLF.Types TM :tm:tm_scope:'succ'_x not
+R13470:13470 PLF.Types <> t:41 var
+R13476:13478 PLF.Types TM :ty::'Nat' not
+R13488:13494 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13496:13500 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13504:13506 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13495:13495 PLF.Types <> t:41 var
+R13501:13503 PLF.Types TM :ty::'Nat' not
+prf 13834:13847 TM bool_canonical
+binder 13858:13858 <> t:42
+R13883:13886 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13863:13869 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13871:13875 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13880:13882 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R13870:13870 PLF.Types <> t:42 var
+R13876:13879 PLF.Types TM :ty::'Bool' not
+R13894:13897 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13887:13891 PLF.Types TM value def
+R13893:13893 PLF.Types <> t:42 var
+R13898:13903 PLF.Types TM bvalue ind
+R13905:13905 PLF.Types <> t:42 var
+prf 14036:14048 TM nat_canonical
+binder 14059:14059 <> t:43
+R14083:14086 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14064:14070 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14072:14076 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14080:14082 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14071:14071 PLF.Types <> t:43 var
+R14077:14079 PLF.Types TM :ty::'Nat' not
+R14094:14097 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14087:14091 PLF.Types TM value def
+R14093:14093 PLF.Types <> t:43 var
+R14098:14103 PLF.Types TM nvalue ind
+R14105:14105 PLF.Types <> t:43 var
+prf 14617:14624 TM progress
+binder 14635:14635 <> t:44
+binder 14637:14637 <> T:45
+R14659:14664 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14642:14648 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14650:14654 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14656:14658 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R14649:14649 PLF.Types <> t:44 var
+R14655:-1 PLF.Types TM :ty::x not
+R0:14655 PLF.Types TM :ty::x not
+R14655:14655 PLF.Types <> T:45 var
+R14672:14675 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R14665:14669 PLF.Types TM value def
+R14671:14671 PLF.Types <> t:44 var
+R14676:14682 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14685:14686 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14683:14684 <> t':46
+R14688:14692 PLF.Types TM :::x_'-->'_x not
+R14687:14687 PLF.Types <> t:44 var
+R14693:14694 PLF.Types <> t':46 var
+R15158:15171 PLF.Types TM bool_canonical thm
+R15158:15171 PLF.Types TM bool_canonical thm
+R15327:15329 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15352:15354 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15330:15332 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15336:15341 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15344:15349 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15327:15329 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15352:15354 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15330:15332 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15336:15341 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15344:15349 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R15447:15459 PLF.Types TM nat_canonical thm
+R15447:15459 PLF.Types TM nat_canonical thm
+R15487:15493 PLF.Types TM nv_succ constr
+R15487:15493 PLF.Types TM nv_succ constr
+R15575:15577 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15586:15588 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15578:15582 PLF.Types TM :tm:tm_scope:'succ'_x not
+R15575:15577 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15586:15588 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15578:15582 PLF.Types TM :tm:tm_scope:'succ'_x not
+R15603:15609 PLF.Types TM ST_Succ constr
+R15603:15609 PLF.Types TM ST_Succ constr
+R15709:15721 PLF.Types TM nat_canonical thm
+R15709:15721 PLF.Types TM nat_canonical thm
+R15771:15773 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15775:15777 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15774:15774 PLF.Types TM :tm:tm_scope:'0' not
+R15771:15773 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15775:15777 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15774:15774 PLF.Types TM :tm:tm_scope:'0' not
+R15794:15801 PLF.Types TM ST_Pred0 constr
+R15794:15801 PLF.Types TM ST_Pred0 constr
+R15819:15821 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15823:15825 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15819:15821 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15823:15825 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15842:15852 PLF.Types TM ST_PredSucc constr
+R15842:15852 PLF.Types TM ST_PredSucc constr
+R15936:15938 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15947:15949 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15939:15943 PLF.Types TM :tm:tm_scope:'pred'_x not
+R15936:15938 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15947:15949 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R15939:15943 PLF.Types TM :tm:tm_scope:'pred'_x not
+R15964:15970 PLF.Types TM ST_Pred constr
+R15964:15970 PLF.Types TM ST_Pred constr
+R16072:16084 PLF.Types TM nat_canonical thm
+R16072:16084 PLF.Types TM nat_canonical thm
+R16134:16136 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16141:16143 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16137:16140 PLF.Types TM :tm:tm_scope:'true' not
+R16134:16136 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16141:16143 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16137:16140 PLF.Types TM :tm:tm_scope:'true' not
+R16160:16169 PLF.Types TM ST_IsZero0 constr
+R16160:16169 PLF.Types TM ST_IsZero0 constr
+R16187:16189 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16195:16197 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16190:16194 PLF.Types TM :tm:tm_scope:'false' not
+R16187:16189 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16195:16197 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16190:16194 PLF.Types TM :tm:tm_scope:'false' not
+R16214:16226 PLF.Types TM ST_IsZeroSucc constr
+R16214:16226 PLF.Types TM ST_IsZeroSucc constr
+R16310:16312 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16323:16325 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16313:16319 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R16310:16312 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16323:16325 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R16313:16319 PLF.Types TM :tm:tm_scope:'iszero'_x not
+R16340:16348 PLF.Types TM ST_IsZero constr
+R16340:16348 PLF.Types TM ST_IsZero constr
+def 17469:17509 TM manual_grade_for_finish_progress_informal
+R17513:17518 Corelib.Init.Datatypes <> option ind
+R17524:17524 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17521:17523 Corelib.Init.Datatypes <> nat ind
+R17525:17530 Stdlib.Strings.String <> string ind
+R17536:17539 Corelib.Init.Datatypes <> None constr
+prf 18093:18104 TM preservation
+binder 18115:18115 <> t:47
+binder 18117:18118 <> t':48
+binder 18120:18120 <> T:49
+R18142:18147 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18125:18131 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18133:18137 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18139:18141 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18132:18132 PLF.Types <> t:47 var
+R18138:-1 PLF.Types TM :ty::x not
+R0:18138 PLF.Types TM :ty::x not
+R18138:18138 PLF.Types <> T:49 var
+R18156:18161 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18149:18153 PLF.Types TM :::x_'-->'_x not
+R18148:18148 PLF.Types <> t:47 var
+R18154:18155 PLF.Types <> t':48 var
+R18162:18168 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18171:18175 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18177:18179 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R18169:18170 PLF.Types <> t':48 var
+R18176:-1 PLF.Types TM :ty::x not
+R0:18176 PLF.Types TM :ty::x not
+R18176:18176 PLF.Types <> T:49 var
+R18750:18753 PLF.Types TM T_If constr
+R18750:18753 PLF.Types TM T_If constr
+R18857:18862 PLF.Types TM T_Succ constr
+R18857:18862 PLF.Types TM T_Succ constr
+R19011:19016 PLF.Types TM T_Pred constr
+R19011:19016 PLF.Types TM T_Pred constr
+R19085:19090 PLF.Types TM T_True constr
+R19085:19090 PLF.Types TM T_True constr
+R19107:19113 PLF.Types TM T_False constr
+R19107:19113 PLF.Types TM T_False constr
+R19130:19137 PLF.Types TM T_Iszero constr
+R19130:19137 PLF.Types TM T_Iszero constr
+def 20426:20470 TM manual_grade_for_finish_preservation_informal
+R20474:20479 Corelib.Init.Datatypes <> option ind
+R20485:20485 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R20482:20484 Corelib.Init.Datatypes <> nat ind
+R20486:20491 Stdlib.Strings.String <> string ind
+R20497:20500 Corelib.Init.Datatypes <> None constr
+prf 20937:20949 TM preservation'
+binder 20960:20960 <> t:50
+binder 20962:20963 <> t':51
+binder 20965:20965 <> T:52
+R20987:20992 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20970:20976 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R20978:20982 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R20984:20986 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R20977:20977 PLF.Types <> t:50 var
+R20983:-1 PLF.Types TM :ty::x not
+R0:20983 PLF.Types TM :ty::x not
+R20983:20983 PLF.Types <> T:52 var
+R21001:21006 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20994:20998 PLF.Types TM :::x_'-->'_x not
+R20993:20993 PLF.Types <> t:50 var
+R20999:21000 PLF.Types <> t':51 var
+R21007:21013 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21016:21020 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21022:21024 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21014:21015 PLF.Types <> t':51 var
+R21021:-1 PLF.Types TM :ty::x not
+R0:21021 PLF.Types TM :ty::x not
+R21021:21021 PLF.Types <> T:52 var
+def 21724:21732 TM multistep
+R21738:21742 PLF.Smallstep <> multi ind
+R21744:21747 PLF.Types TM step ind
+R21779:21787 PLF.Types TM multistep def
+not 21760:21760 TM :::x_'-->*'_x
+prf 21822:21830 TM soundness
+binder 21841:21841 <> t:53
+binder 21843:21844 <> t':54
+binder 21846:21846 <> T:55
+R21868:21873 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21851:21857 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21859:21863 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21865:21867 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R21858:21858 PLF.Types <> t:53 var
+R21864:-1 PLF.Types TM :ty::x not
+R0:21864 PLF.Types TM :ty::x not
+R21864:21864 PLF.Types <> T:55 var
+R21883:21888 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21875:21880 PLF.Types TM :::x_'-->*'_x not
+R21874:21874 PLF.Types <> t:53 var
+R21881:21882 PLF.Types <> t':54 var
+R21889:21890 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21899:21899 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R21891:21895 PLF.Types TM stuck def
+R21897:21898 PLF.Types <> t':54 var
+R21968:21975 PLF.Types TM progress thm
+R21968:21975 PLF.Types TM progress thm
+R22030:22042 PLF.Types TM preservation' thm
+R22030:22042 PLF.Types TM preservation' thm
+R22078:22082 PLF.Types TM stuck def
+prf 22613:22629 TM subject_expansion
+R22634:22634 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R22701:22709 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+binder 22642:22642 <> t:56
+binder 22644:22645 <> t':57
+binder 22647:22647 <> T:58
+R22680:22683 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22658:22661 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22651:22655 PLF.Types TM :::x_'-->'_x not
+R22650:22650 PLF.Types <> t:56 var
+R22656:22657 PLF.Types <> t':57 var
+R22662:22668 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22671:22675 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22677:22679 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22669:22670 PLF.Types <> t':57 var
+R22676:-1 PLF.Types TM :ty::x not
+R0:22676 PLF.Types TM :ty::x not
+R22676:22676 PLF.Types <> T:58 var
+R22684:22690 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22692:22696 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22698:22700 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22691:22691 PLF.Types <> t:56 var
+R22697:-1 PLF.Types TM :ty::x not
+R0:22697 PLF.Types TM :ty::x not
+R22697:22697 PLF.Types <> T:58 var
+R22710:22712 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R22779:22779 Corelib.Init.Logic <> ::type_scope:'~'_x not
+binder 22720:22720 <> t:59
+binder 22722:22723 <> t':60
+binder 22725:22725 <> T:61
+R22758:22761 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22736:22739 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22729:22733 PLF.Types TM :::x_'-->'_x not
+R22728:22728 PLF.Types <> t:59 var
+R22734:22735 PLF.Types <> t':60 var
+R22740:22746 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22749:22753 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22755:22757 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22747:22748 PLF.Types <> t':60 var
+R22754:-1 PLF.Types TM :ty::x not
+R0:22754 PLF.Types TM :ty::x not
+R22754:22754 PLF.Types <> T:61 var
+R22762:22768 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22770:22774 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22776:22778 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22769:22769 PLF.Types <> t:59 var
+R22775:-1 PLF.Types TM :ty::x not
+R0:22775 PLF.Types TM :ty::x not
+R22775:22775 PLF.Types <> T:61 var
+R22826:22828 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22854:22856 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22829:22831 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22836:22841 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22843:22848 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22832:22835 PLF.Types TM :tm:tm_scope:'true' not
+R22842:22842 PLF.Types TM :tm:tm_scope:'0' not
+R22849:22853 PLF.Types TM :tm:tm_scope:'false' not
+R22858:22860 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22862:22864 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22861:22861 PLF.Types TM :tm:tm_scope:'0' not
+R22866:22868 PLF.Types TM Nat constr
+R22826:22828 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22854:22856 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22829:22831 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22836:22841 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22843:22848 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22832:22835 PLF.Types TM :tm:tm_scope:'true' not
+R22842:22842 PLF.Types TM :tm:tm_scope:'0' not
+R22849:22853 PLF.Types TM :tm:tm_scope:'false' not
+R22858:22860 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22862:22864 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22861:22861 PLF.Types TM :tm:tm_scope:'0' not
+R22866:22868 PLF.Types TM Nat constr
+R22882:22888 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22920:22924 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22928:22930 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22889:22891 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22917:22919 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22892:22894 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22899:22904 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22906:22911 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22895:22898 PLF.Types TM :tm:tm_scope:'true' not
+R22905:22905 PLF.Types TM :tm:tm_scope:'0' not
+R22912:22916 PLF.Types TM :tm:tm_scope:'false' not
+R22925:22927 PLF.Types TM :ty::'Nat' not
+R22882:22888 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22920:22924 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22928:22930 PLF.Types TM :::'<{'_'|--'_x_'\in'_x_'}>' not
+R22889:22891 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22917:22919 PLF.Types TM ::tm_scope:'<{'_x_'}>' not
+R22892:22894 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22899:22904 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22906:22911 PLF.Types TM :tm:tm_scope:'if'_x_'then'_x_'else'_x not
+R22895:22898 PLF.Types TM :tm:tm_scope:'true' not
+R22905:22905 PLF.Types TM :tm:tm_scope:'0' not
+R22912:22916 PLF.Types TM :tm:tm_scope:'false' not
+R22925:22927 PLF.Types TM :ty::'Nat' not
+R22974:22982 PLF.Types TM ST_IfTrue constr
+R22974:22982 PLF.Types TM ST_IfTrue constr
+R22997:22999 PLF.Types TM T_0 constr
+R22997:22999 PLF.Types TM T_0 constr
+def 23696:23722 TM manual_grade_for_variation1
+R23726:23731 Corelib.Init.Datatypes <> option ind
+R23737:23737 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R23734:23736 Corelib.Init.Datatypes <> nat ind
+R23738:23743 Stdlib.Strings.String <> string ind
+R23749:23752 Corelib.Init.Datatypes <> None constr
+def 24188:24214 TM manual_grade_for_variation2
+R24218:24223 Corelib.Init.Datatypes <> option ind
+R24229:24229 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R24226:24228 Corelib.Init.Datatypes <> nat ind
+R24230:24235 Stdlib.Strings.String <> string ind
+R24241:24244 Corelib.Init.Datatypes <> None constr
+def 26463:26491 TM manual_grade_for_remove_pred0
+R26496:26501 Corelib.Init.Datatypes <> option ind
+R26507:26507 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26504:26506 Corelib.Init.Datatypes <> nat ind
+R26508:26513 Stdlib.Strings.String <> string ind
+R26519:26522 Corelib.Init.Datatypes <> None constr
+def 27050:27083 TM manual_grade_for_prog_pres_bigstep
+R27087:27092 Corelib.Init.Datatypes <> option ind
+R27098:27098 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27095:27097 Corelib.Init.Datatypes <> nat ind
+R27099:27104 Stdlib.Strings.String <> string ind
+R27110:27113 Corelib.Init.Datatypes <> None constr
+R27130:27131 PLF.Types TM <> mod
